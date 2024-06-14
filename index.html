@@ -84,7 +84,7 @@
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
 		  <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="mobile-nav-toggle"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></i>
       </nav><!-- .navbar -->
     </div>
   </header><!-- End Header -->
@@ -189,35 +189,36 @@ To enhance educational outcomes, "Bright Spark" incorporates carefully curated g
     </section><!-- End Domain Section -->
 
     <!-- ======= Features Section ======= -->
-<section id="features" class="features">
-  <div class="container">
+  <section id="features" class="features">
+    <div class="container">
 
     <ul class="nav nav-tabs row d-flex" id="myTab" role="tablist">
       <li class="nav-item col-3" role="presentation" data-aos="zoom-in">
-        <a class="nav-link active show" id="tab-1-tab" data-bs-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">
+        <a class="nav-link active show tablinks" onclick="openTab(event, 'tab_1')" id="tab-1-tab" data-bs-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">
           <i class="fas fa-chart-line"></i>
-          <h4 class="d-none d-lg-block">Capturing and Recording Progress of a Child</h4>
+          <h4 class="d-none d-lg-block">Recording Progress of a Child</h4>
         </a>
       </li>
 
+      
       <li class="nav-item col-3" role="presentation" data-aos="zoom-in" data-aos-delay="100">
-        <a class="nav-link" id="tab-2-tab" data-bs-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">
+        <a class="nav-link tablinks" onclick="openTab(event, 'tab_2')" id="tab-2-tab" data-bs-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">
           <i class="fas fa-check-circle"></i>
           <h4 class="d-none d-lg-block">Identify Learning Disability Symptoms</h4>
         </a>
       </li>
 
       <li class="nav-item col-3" role="presentation" data-aos="zoom-in" data-aos-delay="200">
-        <a class="nav-link" id="tab-3-tab" data-bs-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">
+        <a class="nav-link tablinks" onclick="openTab(event, 'tab_3')" id="tab-3-tab" data-bs-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">
           <i class="fas fa-bug"></i>
-          <h4 class="d-none d-lg-block">Addressing Learning Disability Symptoms Through Games</h4>
+          <h4 class="d-none d-lg-block">Addressing Symptoms through Games</h4>
         </a>
       </li>
 
       <li class="nav-item col-3" role="presentation" data-aos="zoom-in" data-aos-delay="300">
-        <a class="nav-link" id="tab-4-tab" data-bs-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">
+        <a class="nav-link tablinks" onclick="openTab(event, 'tab_4')" id="tab-4-tab" data-bs-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">
           <i class="fas fa-users"></i>
-          <h4 class="d-none d-lg-block">Optimizing UX Design for Preschool Age Children, Parents and Teachers: <br>A user-centered Approach</h4>
+          <h4 class="d-none d-lg-block">A User-Centered Approach</h4>
         </a>
       </li>
     </ul>
@@ -225,9 +226,9 @@ To enhance educational outcomes, "Bright Spark" incorporates carefully curated g
     <br>
 
     <div class="tab-content" id="myTabContent" data-aos="fade-up">
-      <div class="tab-pane fade active show" id="tab-1" role="tabpanel" aria-labelledby="tab-1-tab">
+      <div class="tab-pane active show tabcontent" id="tab_1" role="tabpanel" aria-labelledby="tab-1-tab">
         <div class="row">
-          <div class="col-lg-7 order-2 order-lg-1 mt-3 mt-lg-0">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
             <h4>Capturing and Recording Progress of a Child</h4>
             <p style="text-align: justify;">
               Bright Spark facilitates child development by integrating standard teaching curriculums and assessment methods from both local and global contexts. This innovative approach allows educators to continuously assess and update each child's progress based on predefined criteria.
@@ -241,12 +242,12 @@ To enhance educational outcomes, "Bright Spark" incorporates carefully curated g
             </ul>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/price.png" alt="" class="img-fluid">
+            <img src="assets/img/img1.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
 
-      <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2-tab">
+      <div class="tab-pane tabcontent" id="tab_2" role="tabpanel" aria-labelledby="tab-2-tab">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
             <h4>Identify Learning Disability Symptoms</h4>
@@ -261,12 +262,12 @@ To enhance educational outcomes, "Bright Spark" incorporates carefully curated g
             </ul>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/grade.png" alt="" class="img-fluid">
+            <img src="assets/img/img2.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
 
-      <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3-tab">
+      <div class="tab-pane tabcontent" id="tab_3" role="tabpanel" aria-labelledby="tab-3-tab">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
             <h4>Addressing Learning Disability Symptoms Through Games</h4>
@@ -281,17 +282,17 @@ To enhance educational outcomes, "Bright Spark" incorporates carefully curated g
             </ul>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/disease.png" alt="" class="img-fluid">
+            <img src="assets/img/img3.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
 
-      <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4-tab">
+      <div class="tab-pane tabcontent" id="tab_4" role="tabpanel" aria-labelledby="tab-4-tab">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-            <h4>AI Based Smart User Community</h4>
+            <h4>Optimizing UX Design for Preschool Age Children, Parents and Teachers</h4>
             <p style="text-align: justify;">
-              focuses on a user-centered design, considering children's cognitive, emotional, and physical development, to create visually appealing and accessible designs that ensure a positive experience for preschoolers, parents, and teachers.
+              Focuses on a user-centered design, considering children's cognitive, emotional, and physical development, to create visually appealing and accessible designs that ensure a positive experience for preschoolers, parents, and teachers.
             </p>
             <h4>Key Objectives:</h4>
             <ul style="text-align: justify;">
@@ -301,13 +302,31 @@ To enhance educational outcomes, "Bright Spark" incorporates carefully curated g
             </ul>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/smart.png" alt="" class="img-fluid">
+            <img src="assets/img/img4.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
+<script>
+  function openTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
 <!-- End Features Section -->
 
 
